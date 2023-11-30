@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: url('https://i.pinimg.com/564x/2e/60/b2/2e60b2b1380e09b265456d2dd185f252.jpg') center/cover no-repeat; /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    color: white;
+    text-align: center;
+    height: 100vh;
+   
+}
+
+
+
+header {
+    font-size: 36px;
+    margin-bottom: 20px;
+    border: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Playfair Display', serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #BF2121; 
+    transform: scale(1.1);
+}
+
+.header1 {
+    position: relative;
+    
+}
+nav {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}       
+
+nav ul ul a:hover {
+    transition: white 0.3s ease-in;
+}
+
+.container {
+    padding: 10vh;
+}
+
+.containerT {
+    padding: 2vh;
+}
+
+iframe {
+    border-radius: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 6vw;
+        padding: 1vh;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+    button {
+        padding: 2vw 4vw;
+        font-size: 3vw;
+    }
+
+    ul {
+        padding: 2vw;
+    }
+
+    li {
+        margin-right: 3vw;
+    }
+
+    a {
+        font-size: 3vw;
+    }
+    iframe {
+        width: 90vw;
+        height: 50vw;
+    }
+}
